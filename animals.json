@@ -1,0 +1,74 @@
+{
+  "animals": [
+    {
+      "id": "1",
+      "name": "Armadillo",
+      "food": "Poo",
+      "image": "images/armadillo.jpg",
+      "location": "1"
+    },
+    {
+      "id": "2",
+      "name": "Guanaco",
+      "food": "Grass",
+      "image": "images/guanaco.jpg",
+      "location": "2"
+    },
+    {
+      "id": "3",
+      "name": "Klipspringer",
+      "food": "Blood",
+      "image": "images/klipspringer.jpg",
+      "location": "3"
+    },
+    {
+      "id": "4",
+      "name": "Mangabey",
+      "food": "Banana",
+      "image": "images/mangabey.jpg",
+      "location": "4"
+    },
+    {
+      "id": "5",
+      "name": "Meerkat",
+      "food": "Humans",
+      "image": "images/meerkats.jpg",
+      "location": "5"
+    },
+    {
+      "id": "6",
+      "name": "Saiga",
+      "food": "Bamba",
+      "image": "images/saiga.jpg",
+      "location": "6"
+    },
+    {
+      "id": "7",
+      "name": "Secretary Bird",
+      "food": "Laptops",
+      "image": "images/secretary_bird.jpg",
+      "location": "7"
+    },
+    {
+      "id": "8",
+      "name": "Takin",
+      "food": "Secretary Birds",
+      "image": "images/takin.jpg",
+      "location": "8"
+    },
+    {
+      "id": "9",
+      "name": "Koala",
+      "food": "Bamba",
+      "image": "images/koala.jpg",
+      "location": "9"
+    },
+    {
+      "id": "10",
+      "name": "Gelada",
+      "food": "Banana",
+      "image": "images/galada.jpg",
+      "location": "10"
+    }
+  ]
+}

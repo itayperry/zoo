@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+	<style>
+		body {
+			margin: 0;padding: 1rem;
+			/*font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;*/
+			font-family: 'Lora', serif;
+		}
+
+/*		#all-animals-container {
+			display: flex;
+			flex-wrap: wrap;
+		}*/
+/*		.animal-container {
+			margin: 2rem;
+			padding: 2rem;
+		}*/
+		span {
+			display: block;
+		}
+		.animal-image {
+			width: 80%;
+		}
+		.col-sm-6 {
+			margin-bottom: 2rem;
+		}
+		.row {
+			display: flex;
+		}
+		#contain-form {
+			display: flex;
+			justify-content: center;
+			-ms-align-items: center;
+			align-items: center;
+		}
+		form {
+			padding: 1.5rem;
+			border: 0.2rem solid #352c2c;
+			margin: 1rem;
+		}
+		input, select {
+			display: block;
+			margin-bottom: 0.5rem;
+			padding: 0.5rem;
+			width: 100%;
+			font-style: italic;
+		}
+		h2 {
+			color: brown;
+			margin-bottom: 1rem;
+		}
+		#preview {
+			margin-bottom: 1rem;
+			width:100%;
+/*			height: 10rem;*/
+			overflow: hidden;
+		}
+		#preview-image {
+			width: 100%;
+			height: 12rem;
+			background-size: cover;
+			background-position: 50% 50%;
+		}
+		input[type=submit] {
+			border: none;
+			color:white;
+			background-color: #352c2c;
+		}
+		input[type=submit]:hover {
+			background-color: #a52a2a;
+		}
+	</style>
+</head>
+<body>
+	<header><h1>Welcome to the zoo</h1></header>
+	<main id="all-animals-container">
+		<div class="row"></div>
+		<div id="contain-form"></div>
+	</main>
+
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="Animal.js"></script>
+	<script type="text/javascript" src="Zoo.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
